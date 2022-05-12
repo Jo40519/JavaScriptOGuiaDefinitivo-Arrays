@@ -62,3 +62,18 @@ retorna o array dos elementos excluídos ou um array vazio, se nenhum elemento f
 
 Os dois primeiros argumentos de splice() especificam quais elementos do array devem ser excluídos. Esses argumentos podem ser seguidos por qualquer número de argumentos adicionais, especificando os elementos a serem inseridos no array, começando na posição especificada pelo primeiro
 argumento.
+
+
+Métodos push() e pop()
+Os métodos push() e pop() permitem trabalhar com arrays como se fossem pilhas. O método push()
+anexa um ou mais novos elementos no final de um array e retorna o novo comprimento do array. O
+método pop() faz o inverso: ele exclui o último elemento de um array, decrementa o comprimento
+do array e retorna o valor que removeu. Note que os dois métodos modificam o array no local, em
+vez de produzirem uma cópia modificada dele.
+
+Métodos unshift() e shift()
+Os métodos unshift() e shift() se comportam quase como push() e pop(), exceto que inserem e
+removem elementos do início de um array e não do final. unshift() adiciona um ou mais elementos no início do array, desloca os elementos existentes no array para cima, para índices mais altos,
+a fim de dar espaço, e retorna o novo comprimento do array. shift() remove e retorna o primeiro
+elemento do array, deslocando todos os elementos subsequentes uma casa para baixo, para ocuparem
+o espaço recentemente vago no início do array.
