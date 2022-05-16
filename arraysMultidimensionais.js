@@ -18,3 +18,16 @@ for (let row = 0; row < table.length; row++) {
 let product = table[5][7]
 
 console.log(product)
+
+
+let arr = [1, -4, 7, 12]
+
+let somados = Math.sign(arr)
+let result = 0
+
+for (let i = 0; i < arr.length; i++){
+    result += arr[i]
+}
+console.log(arr)
+console.log(result)
+console.log(somados)
