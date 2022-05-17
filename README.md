@@ -77,3 +77,25 @@ removem elementos do início de um array e não do final. unshift() adiciona um 
 a fim de dar espaço, e retorna o novo comprimento do array. shift() remove e retorna o primeiro
 elemento do array, deslocando todos os elementos subsequentes uma casa para baixo, para ocuparem
 o espaço recentemente vago no início do array.
+
+
+
+Método forEach()
+
+O método forEach() itera por um array, chamando uma função especificada para cada elemento.
+Conforme descrito, a função é passada como primeiro argumento para forEach(). Então, forEach()
+chama a função com três argumentos: o valor do elemento do array, o índice do elemento e o array
+em si.
+
+
+Método map()
+
+O método map() passa cada elemento do array em que é chamado para a função especificada e retorna um array contendo os valores retornados por essa função
+
+
+Método filter()
+
+O método filter() retorna um array contendo um subconjunto dos elementos do array em que é
+chamado. A função passada para ele deve ser um predicado: uma função que retorna true ou false.
+O predicado é chamado exatamente como para forEach() e map(). Se o valor de retorno é true ou um
+valor que se converte em true, então o elemento passado para o predicado é membro do subconjunto e é adicionado no array que se tornará o valor de retorno
