@@ -9,8 +9,6 @@
 let str = "How can mirrors be real if our eyes aren\'t real"
 let arr = str.split(' ').map(frase => {
     return frase[0].toUpperCase() + 
-    frase.toLocaleLowerCase().slice(1)
+        frase.toLocaleLowerCase().slice(1)
 })
-let junto = arr.join(' ').replace(/'\'/g, '')
-    
-console.log(junto)
+console.log(arr)
